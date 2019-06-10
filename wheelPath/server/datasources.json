@@ -1,0 +1,11 @@
+{
+  "wheel_mysql": {
+    "host": "49.4.87.84",
+    "port": 3306,
+    "database": "wheelPath",
+    "password": "Xx197202?",
+    "name": "wheel_mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
