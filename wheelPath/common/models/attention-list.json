@@ -10,14 +10,31 @@
     "table": "attention_list"
   },
   "properties": {
-    "username": {
+    "id": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "userName": {
       "type": "String",
       "required": true,
       "length": 45,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "userName",
+        "columnName": "user_name",
         "dataType": "varchar",
         "dataLength": 45,
         "dataPrecision": null,
@@ -26,21 +43,21 @@
       },
       "_selectable": false
     },
-    "attentionname": {
+    "attentionName": {
       "type": "String",
-      "required": false,
+      "required": true,
       "length": 45,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "attentionName",
+        "columnName": "attention_name",
         "dataType": "varchar",
         "dataLength": 45,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
     }
   },
   "validations": [],
