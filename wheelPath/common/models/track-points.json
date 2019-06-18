@@ -30,13 +30,13 @@
     "latitude": {
       "type": "String",
       "required": true,
-      "length": 45,
+      "length": 16777215,
       "precision": null,
       "scale": null,
       "mysql": {
         "columnName": "latitude",
-        "dataType": "varchar",
-        "dataLength": 45,
+        "dataType": "mediumtext",
+        "dataLength": 16777215,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
@@ -46,13 +46,13 @@
     "longitude": {
       "type": "String",
       "required": true,
-      "length": 45,
+      "length": 16777215,
       "precision": null,
       "scale": null,
       "mysql": {
         "columnName": "longitude",
-        "dataType": "varchar",
-        "dataLength": 45,
+        "dataType": "mediumtext",
+        "dataLength": 16777215,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
