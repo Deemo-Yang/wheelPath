@@ -28,5 +28,13 @@
   "AttentionList": {
     "dataSource": "wheel_mysql",
     "public": true
+  },
+  "EditInfo": {
+    "dataSource": "wheel_mysql",
+    "public": true
+  },
+  "TotalDis": {
+    "dataSource": "wheel_mysql",
+    "public": true
   }
 }
